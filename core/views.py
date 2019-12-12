@@ -13,7 +13,8 @@ def about(request):
 
     context = {
         "name": student.name,
-        "address": student.address
+        "address": student.address,
+        "age": student.age
     }
 
     page = "about.html"
