@@ -4,7 +4,7 @@ from .models import Student
 
 # Create your views here.
 def homepage(request):
-    return HttpResponse("hi")
+    return HttpResponse("hello")
 
 
 def about(request):
